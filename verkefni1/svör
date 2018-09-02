@@ -1,0 +1,65 @@
+<h1>1.Hvað er null og undfeind<h1>
+  null og undefined eru báðar data type javascript er með 7 basic data types og þau eru eitt af þeim 
+  null er data type sem er með ekkert í sér alveg tómt en svo er 
+  undefeind það getur verið með value í sér en ef þú ert ekki bæuinn að gefa henni value þá færð þú undefeind
+  
+ 2.Hvað gerir 'use strict' í JavaScript kóða?
+    use strict er mode sem er hjálpar þér að debugga kóðan þinn og 
+    að notandi sem er að skrifa kóðan má ekki runa neima ef kóðinn er alveg 100% réttur
+    
+3.Hver er munurinn á let og var?
+  munnurin á þeim er í scopinum hjá þeim var er scopaður hjá nálægsta fuction blcok 
+  let er nálægst enclosing block 
+  en þau eru bæði global er þau er ekki inn í block
+  
+4.Skilgreindu fall á þrjá mismunandi vegu með kóðasýnidæmi.
+
+    function eitthvað(1,2){
+    let eitthvað = 1+2;
+    return eitthvað
+   }
+
+  let eitthvað = function(1,2){
+    let eitthvað = 1+2;
+    return eitthvað
+  };
+
+  var eitthvað = x => x * x;
+ 
+5.Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir? 
+  (function() { alert('Hello World'); })();
+  
+  það sem kóðinn geiri er að seigja hello world á núverandi síðuno sem þú ert á það er sem alert gerir 
+  það sem sviginn sem er fyrir framan fuction gerir það á privite fall svo sem er 
+  fyrir bakið fuction lætur svo að þú getur bætt eitthvað inn í fuction
+  sviginair eru lokaðir svo að kóðinn getur keyrt um leið og það er kveikt á honum 
+  
+  6.Í hvaða röð er kóðinn keyrður í raun eftir að JS þýðandinn (e. interpreter) er búinn að fá hann til sín? Raðaðu kóðanum rétt fyrir JS þýðandanum.
+  Afhverju er útkoman8? Útskýrðu.
+    function foo(){ 
+      function bar() { 
+        return 3; 
+      } 
+      return bar(); 
+        function bar() { 
+          return 8; 
+        } 
+      } 
+      alert(foo()); 
+      
+      þessi kóði keyir fyrstu línuna og svo seinni útkoman veður 8 út af því að fuction heitir það sama 
+      fuction sem er fyrir neðan overwritear hitt og þá veður útkoman 8 
+      
+      kóðinn fyrir þýðenda
+          function foo(){
+          function bar() {
+              return 3;
+           }
+           function bar() {
+              return 8;
+           }
+            return bar();
+          }
+      alert(foo());
+      
+7.
