@@ -1,4 +1,4 @@
-<h1>1.Hvað er null og undfeind<h1>
+1.Hvað er null og undfeind
   null og undefined eru báðar data type javascript er með 7 basic data types og þau eru eitt af þeim 
   null er data type sem er með ekkert í sér alveg tómt en svo er 
   undefeind það getur verið með value í sér en ef þú ert ekki bæuinn að gefa henni value þá færð þú undefeind
