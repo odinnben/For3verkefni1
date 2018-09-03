@@ -13,7 +13,7 @@
   en þau eru bæði global er þau er ekki inn í block
   
 4.Skilgreindu fall á þrjá mismunandi vegu með kóðasýnidæmi.
-
+```
     function eitthvað(1,2){
     let eitthvað = 1+2;
     return eitthvað
@@ -25,7 +25,7 @@
   };
 
   var eitthvað = x => x * x;
- 
+ ```
 5.Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir? 
   (function() { alert('Hello World'); })();
   
