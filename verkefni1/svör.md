@@ -1,18 +1,18 @@
-1.Hvað er null og undfeind
+**1.Hvað er null og undfeind**
   null og undefined eru báðar data type javascript er með 7 basic data types og þau eru eitt af þeim 
   null er data type sem er með ekkert í sér alveg tómt en svo er 
   undefeind það getur verið með value í sér en ef þú ert ekki bæuinn að gefa henni value þá færð þú undefeind
   
- 2.Hvað gerir 'use strict' í JavaScript kóða?
+ **2.Hvað gerir 'use strict' í JavaScript kóða?**
     use strict er mode sem er hjálpar þér að debugga kóðan þinn og 
     að notandi sem er að skrifa kóðan má ekki runa neima ef kóðinn er alveg 100% réttur
     
-3.Hver er munurinn á let og var?
+**3.Hver er munurinn á let og var?**
   munnurin á þeim er í scopinum hjá þeim var er scopaður hjá nálægsta fuction blcok 
   let er nálægst enclosing block 
   en þau eru bæði global er þau er ekki inn í block
   
-4.Skilgreindu fall á þrjá mismunandi vegu með kóðasýnidæmi.
+**4.Skilgreindu fall á þrjá mismunandi vegu með kóðasýnidæmi.**
 ```
     function eitthvað(1,2){
     let eitthvað = 1+2;
@@ -26,7 +26,7 @@
 
   var eitthvað = x => x * x;
  ```
-5.Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir? 
+**5.Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir? **
   ```
   (function() { alert('Hello World'); })();
   ```
@@ -64,11 +64,11 @@
           }
       alert(foo());
      
-7.hver er munnurinn á for,for-in og for-off
+**7.hver er munnurinn á for,for-in og for-off**
   for-off loppar yfir value
   for-inn loppar yfir nafni
 
-8.forEach() Leystu  lið 20 í Arrays á Udacity https://classroom.udacity.com/courses/ud803
+**8.forEach() Leystu  lið 20 í Arrays á Udacity https://classroom.udacity.com/courses/ud803**
 ```
 var test = [12, 929, 11, 3, 199, 1000, 7, 1, 24, 37, 4,
  19, 300, 3775, 299, 36, 209, 148, 169, 299,
@@ -81,7 +81,7 @@ test.forEach(function (value, i, arr) {
     }
 });
 ```
-9.Hvað gerir .map() fylkjaaðferðin? Leystu lið 22 í Arrays á Udacity https://classroom.udacity.com/courses/ud803
+**9.Hvað gerir .map() fylkjaaðferðin? Leystu lið 22 í Arrays á Udacity https://classroom.udacity.com/courses/ud803**
 ```
 var bills = [50.23, 19.12, 34.01,
     100.11, 12.15, 9.90, 29.11, 12.99,
@@ -96,7 +96,7 @@ var totals = bills.map(function(bill) {
 
 console.log(totals)
 ```
-10.Leystu lið 25 í Arrays í lesson 6á Udacity https://classroom.udacity.com/courses/ud803
+**10.Leystu lið 25 í Arrays í lesson 6á Udacity https://classroom.udacity.com/courses/ud803**
 ```
 var numbers = [
     [243, 12, 23, 12, 45, 45, 78, 66, 223, 3],
