@@ -27,8 +27,9 @@
   var eitthvað = x => x * x;
  ```
 5.Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir? 
+  ```
   (function() { alert('Hello World'); })();
-  
+  ```
   það sem kóðinn geiri er að seigja hello world á núverandi síðuno sem þú ert á það er sem alert gerir 
   það sem sviginn sem er fyrir framan fuction gerir það á privite fall svo sem er 
   fyrir bakið fuction lætur svo að þú getur bætt eitthvað inn í fuction
@@ -36,7 +37,7 @@
   
   6.Í hvaða röð er kóðinn keyrður í raun eftir að JS þýðandinn (e. interpreter) er búinn að fá hann til sín? Raðaðu kóðanum rétt fyrir JS þýðandanum.
   Afhverju er útkoman8? Útskýrðu.
-  ```
+
     function foo(){ 
       function bar() { 
         return 3; 
@@ -47,10 +48,10 @@
         } 
       } 
       alert(foo()); 
-      ```
+     
       þessi kóði keyir fyrstu línuna og svo seinni útkoman veður 8 út af því að fuction heitir það sama 
       fuction sem er fyrir neðan overwritear hitt og þá veður útkoman 8 
-      ```
+   
       kóðinn fyrir þýðenda
           function foo(){
           function bar() {
@@ -62,7 +63,7 @@
             return bar();
           }
       alert(foo());
-      ```
+     
 7.hver er munnurinn á for,for-in og for-off
   for-off loppar yfir value
   for-inn loppar yfir nafni
