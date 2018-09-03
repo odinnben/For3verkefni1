@@ -38,9 +38,9 @@
   fyrir bakið fuction lætur svo að þú getur bætt eitthvað inn í fuction
   sviginair eru lokaðir svo að kóðinn getur keyrt um leið og það er kveikt á honum 
   
-  6.Í hvaða röð er kóðinn keyrður í raun eftir að JS þýðandinn (e. interpreter) er búinn að fá hann til sín? Raðaðu kóðanum rétt fyrir JS þýðandanum.Afhverju er útkoman8? Útskýrðu.
+  **6.Í hvaða röð er kóðinn keyrður í raun eftir að JS þýðandinn (e. interpreter) er búinn að fá hann til sín? Raðaðu kóðanum rétt fyrir JS þýðandanum.Afhverju er útkoman8? Útskýrðu.
   
-```javascript
+
     function foo(){ 
       function bar() { 
         return 3; 
@@ -51,11 +51,14 @@
         } 
       } 
       alert(foo()); 
-     
-      þessi kóði keyir fyrstu línuna og svo seinni útkoman veður 8 út af því að fuction heitir það sama 
-      fuction sem er fyrir neðan overwritear hitt og þá veður útkoman 8 
-   
-      kóðinn fyrir þýðenda
+
+
+þessi kóði keyir fyrstu línuna og svo seinni útkoman veður 8 út af því að fuction heitir það sama 
+fuction sem er fyrir neðan overwritear hitt og þá veður útkoman 8 
+      
+
+kóðinn fyrir þýðenda
+      
           function foo(){
           function bar() {
               return 3;
@@ -66,13 +69,15 @@
             return bar();
           }
       alert(foo());
-     
+
+ 
 **7.hver er munnurinn á for,for-in og for-off**
   
  for-off loppar yfir value
  for-inn loppar yfir nafni
 
 **8.forEach() Leystu  lið 20 í Arrays á Udacity https://classroom.udacity.com/courses/ud803**
+
 ```javascript
 var test = [12, 929, 11, 3, 199, 1000, 7, 1, 24, 37, 4,
  19, 300, 3775, 299, 36, 209, 148, 169, 299,
