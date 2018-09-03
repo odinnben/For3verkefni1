@@ -1,6 +1,6 @@
 **1.Hvað er null og undfeind**
   
-  ###null og undefined eru báðar data type javascript er með 7 basic data types og þau eru eitt af þeim 
+  null og undefined eru báðar data type javascript er með 7 basic data types og þau eru eitt af þeim 
   null er data type sem er með ekkert í sér alveg tómt en svo er 
   undefeind það getur verið með value í sér en ef þú ert ekki bæuinn að gefa henni value þá færð þú undefeind
   
@@ -11,7 +11,7 @@
     
 **3.Hver er munurinn á let og var?**
   
- ### munnurin á þeim er í scopinum hjá þeim var er scopaður hjá nálægsta fuction blcok 
+  munnurin á þeim er í scopinum hjá þeim var er scopaður hjá nálægsta fuction blcok 
   let er nálægst enclosing block 
   en þau eru bæði global er þau er ekki inn í block
   
@@ -33,7 +33,7 @@
   ```
   (function() { alert('Hello World'); })();
   ```
-  ###það sem kóðinn geiri er að seigja hello world á núverandi síðuno sem þú ert á það er sem alert gerir 
+  það sem kóðinn geiri er að seigja hello world á núverandi síðuno sem þú ert á það er sem alert gerir 
   það sem sviginn sem er fyrir framan fuction gerir það á privite fall svo sem er 
   fyrir bakið fuction lætur svo að þú getur bætt eitthvað inn í fuction
   sviginair eru lokaðir svo að kóðinn getur keyrt um leið og það er kveikt á honum 
@@ -69,8 +69,8 @@
      
 **7.hver er munnurinn á for,for-in og for-off**
   
- ###for-off loppar yfir value
-  ###for-inn loppar yfir nafni
+ for-off loppar yfir value
+ for-inn loppar yfir nafni
 
 **8.forEach() Leystu  lið 20 í Arrays á Udacity https://classroom.udacity.com/courses/ud803**
 ```
