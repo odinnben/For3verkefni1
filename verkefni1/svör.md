@@ -36,6 +36,7 @@
   
   6.Í hvaða röð er kóðinn keyrður í raun eftir að JS þýðandinn (e. interpreter) er búinn að fá hann til sín? Raðaðu kóðanum rétt fyrir JS þýðandanum.
   Afhverju er útkoman8? Útskýrðu.
+  ```
     function foo(){ 
       function bar() { 
         return 3; 
@@ -46,10 +47,10 @@
         } 
       } 
       alert(foo()); 
-      
+      ```
       þessi kóði keyir fyrstu línuna og svo seinni útkoman veður 8 út af því að fuction heitir það sama 
       fuction sem er fyrir neðan overwritear hitt og þá veður útkoman 8 
-      
+      ```
       kóðinn fyrir þýðenda
           function foo(){
           function bar() {
@@ -61,13 +62,13 @@
             return bar();
           }
       alert(foo());
-      
+      ```
 7.hver er munnurinn á for,for-in og for-off
   for-off loppar yfir value
   for-inn loppar yfir nafni
 
 8.forEach() Leystu  lið 20 í Arrays á Udacity https://classroom.udacity.com/courses/ud803
-
+```
 var test = [12, 929, 11, 3, 199, 1000, 7, 1, 24, 37, 4,
  19, 300, 3775, 299, 36, 209, 148, 169, 299,
  6, 109, 20, 58, 139, 59, 3, 1, 139
@@ -78,9 +79,9 @@ test.forEach(function (value, i, arr) {
         arr[i] += 100;
     }
 });
-
+```
 9.Hvað gerir .map() fylkjaaðferðin? Leystu lið 22 í Arrays á Udacity https://classroom.udacity.com/courses/ud803
-
+```
 var bills = [50.23, 19.12, 34.01,
     100.11, 12.15, 9.90, 29.11, 12.99,
     10.00, 99.22, 102.20, 100.10, 6.77, 2.22
@@ -93,9 +94,9 @@ var totals = bills.map(function(bill) {
 })
 
 console.log(totals)
-
+```
 10.Leystu lið 25 í Arrays í lesson 6á Udacity https://classroom.udacity.com/courses/ud803
-
+```
 var numbers = [
     [243, 12, 23, 12, 45, 45, 78, 66, 223, 3],
     [34, 2, 1, 553, 23, 4, 66, 23, 4, 55],
@@ -121,4 +122,4 @@ for (var x = 0; x < numbers.length; x++) {
     }
 }
 console.log(numbers);
-
+```
