@@ -6,7 +6,7 @@
   
  **2.Hvað gerir 'use strict' í JavaScript kóða?**
     
-    ###use strict er mode sem er hjálpar þér að debugga kóðan þinn og 
+    use strict er mode sem er hjálpar þér að debugga kóðan þinn og 
     að notandi sem er að skrifa kóðan má ekki runa neima ef kóðinn er alveg 100% réttur
     
 **3.Hver er munurinn á let og var?**
@@ -16,7 +16,7 @@
   en þau eru bæði global er þau er ekki inn í block
   
 **4.Skilgreindu fall á þrjá mismunandi vegu með kóðasýnidæmi.**
-```
+```javascript
     function eitthvað(1,2){
     let eitthvað = 1+2;
     return eitthvað
@@ -30,7 +30,7 @@
   var eitthvað = x => x * x;
  ```
 **5.Útskýrðu hvað eftirfarandi kóði gerir, hvað gera svigarnir? **
-  ```
+  ```javascript
   (function() { alert('Hello World'); })();
   ```
   það sem kóðinn geiri er að seigja hello world á núverandi síðuno sem þú ert á það er sem alert gerir 
@@ -38,9 +38,9 @@
   fyrir bakið fuction lætur svo að þú getur bætt eitthvað inn í fuction
   sviginair eru lokaðir svo að kóðinn getur keyrt um leið og það er kveikt á honum 
   
-  6.Í hvaða röð er kóðinn keyrður í raun eftir að JS þýðandinn (e. interpreter) er búinn að fá hann til sín? Raðaðu kóðanum rétt fyrir JS þýðandanum.
-  Afhverju er útkoman8? Útskýrðu.
-
+  6.Í hvaða röð er kóðinn keyrður í raun eftir að JS þýðandinn (e. interpreter) er búinn að fá hann til sín? Raðaðu kóðanum rétt fyrir JS þýðandanum.Afhverju er útkoman8? Útskýrðu.
+  
+```javascript
     function foo(){ 
       function bar() { 
         return 3; 
@@ -73,7 +73,7 @@
  for-inn loppar yfir nafni
 
 **8.forEach() Leystu  lið 20 í Arrays á Udacity https://classroom.udacity.com/courses/ud803**
-```
+```javascript
 var test = [12, 929, 11, 3, 199, 1000, 7, 1, 24, 37, 4,
  19, 300, 3775, 299, 36, 209, 148, 169, 299,
  6, 109, 20, 58, 139, 59, 3, 1, 139
@@ -86,7 +86,7 @@ test.forEach(function (value, i, arr) {
 });
 ```
 **9.Hvað gerir .map() fylkjaaðferðin? Leystu lið 22 í Arrays á Udacity https://classroom.udacity.com/courses/ud803**
-```
+```javascript
 var bills = [50.23, 19.12, 34.01,
     100.11, 12.15, 9.90, 29.11, 12.99,
     10.00, 99.22, 102.20, 100.10, 6.77, 2.22
@@ -101,7 +101,7 @@ var totals = bills.map(function(bill) {
 console.log(totals)
 ```
 **10.Leystu lið 25 í Arrays í lesson 6á Udacity https://classroom.udacity.com/courses/ud803**
-```
+```javascript
 var numbers = [
     [243, 12, 23, 12, 45, 45, 78, 66, 223, 3],
     [34, 2, 1, 553, 23, 4, 66, 23, 4, 55],
